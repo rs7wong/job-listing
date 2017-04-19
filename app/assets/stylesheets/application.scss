@@ -82,11 +82,11 @@
 }
 
 .custab{
-  border: 1px solid #ccc;
+  border: 1px solid #D7CCC8;
 
   padding: 5px;
   margin: 5% 0;
-  box-shadow: 3px 3px 2px #ccc;
+  box-shadow: 3px 3px 2px #D7CCC8 ;
 
   transition: 0.5s;
 }
@@ -183,12 +183,90 @@
 
 }
 
+.btn-default {
+   color: #4E342E;//字体颜色
+
+   background-color: #EFEBE9;//背景颜色
+
+   border-color: #EFEBE9;//边框颜色
+   border-radius: 0px;//btn圆角
+   width: 90px;//这里用指定宽度把btn拉得更长
+}
+
+.btn-default:hover {
+   color: #D7CCC8;//字体颜色
+   background-color: #8D6E63;//鼠标放置在btn上的背景颜色
+
+   border-color: #8D6E63;//鼠标放置在btn上的边框颜色
+
+}
+
+.btn-info {
+   color: #4E342E;//字体颜色
+
+   background-color: #EFEBE9;//背景颜色
+
+   border-color: #EFEBE9;//边框颜色
+   border-radius: 0px;//btn圆角
+   width: 45px;//这里用指定宽度把btn拉得更长
+}
+
+.btn-info:hover {
+   color: #D7CCC8;//字体颜色
+   background-color: #8D6E63;//鼠标放置在btn上的背景颜色
+
+   border-color: #8D6E63;//鼠标放置在btn上的边框颜色
+
+}
+
+.btn-success {
+   color: #4E342E;//字体颜色
+
+   background-color: #B2DFDB;//背景颜色
+
+   border-color: #B2DFDB;//边框颜色
+   border-radius: 0px;//btn圆角
+   width: 45px;//这里用指定宽度把btn拉得更长
+}
+
+.btn-success:hover {
+   color: #4E342E;//字体颜色
+   background-color: #4DB6AC;//鼠标放置在btn上的背景颜色
+
+   border-color: #4DB6AC;//鼠标放置在btn上的边框颜色
+
+}
+
+.btn-warning {
+   color: #4E342E;//字体颜色
+
+   background-color: #ffcdd2;//背景颜色
+
+   border-color: #ffcdd2;//边框颜色
+   border-radius: 0px;//btn圆角
+   width: 45px;//这里用指定宽度把btn拉得更长
+}
+
+.btn-warning:hover {
+   color: #4E342E;//字体颜色
+   background-color: #e57373;//鼠标放置在btn上的背景颜色
+
+   border-color: #e57373;//鼠标放置在btn上的边框颜色
+
+}
+
 .btn-lg, .btn-group-lg > .btn {
    padding: 8px 16px;//通过padding来决定btn的大小
    font-size: 20px;//btn文字大小
    letter-spacing: 2.1px;//调整文字间距
    border-radius: 2.1px;//btn圆角
    width: 255px;//这里用指定宽度把btn拉得更长
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+background-color: #616161;
+color: #EFEBE9;
+border-radius: 0px;//btn圆角
 }
 
 @import url(http://fonts.googleapis.com/css?family=Roboto);
