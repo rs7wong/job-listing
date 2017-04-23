@@ -9,6 +9,7 @@
  <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">瀏覽職缺</a></p>
 </div>
 
+<section>
 <div class="content-section-b">
   <div class="container">
     <div class="row">
@@ -55,3 +56,116 @@
     </div>
   </div>
 </div>
+</section>
+
+<!--======== 热门职位 =========-->
+        <section id="genius" class="our-experts">
+          <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="row">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2 class="section-title">热门职位</h2>
+                    <div class="short-line"></div>
+                  </div>
+                </div>
+                  <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 category-list">
+                          <%= link_to jobs_path(:category => "技术") do %>
+                            <div class="expert-box">
+                                <%= image_tag("category_01.png") %>
+                            </div>
+                            <div>
+                              <h3>技术</h3>
+                              <p>Technology</p>
+                            </div>
+                          <% end %>
+                        </div>
+                        <div class="col-md-3 category-list">
+                          <%= link_to jobs_path(:category => "产品") do %>
+                            <div class="expert-box">
+                                <%= image_tag("category_02.png") %>
+                            </div>
+                            <div>
+                              <h3>产品</h3>
+                              <p>Product</p>
+                            </div>
+                          <% end %>
+                        </div>
+                        <div class="col-md-3 category-list">
+                          <%= link_to jobs_path(:category => "设计") do %>
+                            <div class="expert-box">
+                                <%= image_tag("category_03.png") %>
+                            </div>
+                            <div>
+                              <h3>设计</h3>
+                              <p>Design</p>
+                            </div>
+                          <% end %>
+                        </div>
+                        <div class="col-md-3 category-list">
+                          <%= link_to jobs_path(:category => "运营") do %>
+                            <div class="expert-box">
+                                <%= image_tag("category_04.png") %>
+                            </div>
+                            <div>
+                              <h3>运营</h3>
+                              <p>Operation</p>
+                            </div>
+                          <% end %>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                      <div class="col-md-3 category-list">
+                        <%= link_to jobs_path(:category => "市场") do %>
+                          <div class="expert-box">
+                              <%= image_tag("category_05.png") %>
+                          </div>
+                          <div>
+                            <h3>市场</h3>
+                            <p>Marketing</p>
+                          </div>
+                        <% end %>
+                      </div>
+                      <div class="col-md-3 category-list">
+                        <%= link_to jobs_path(:category => "销售") do %>
+                          <div class="expert-box">
+                              <%= image_tag("category_06.png") %>
+                          </div>
+                          <div>
+                            <h3>销售</h3>
+                            <p>Sales</p>
+                          </div>
+                        <% end %>
+                      </div>
+                      <div class="col-md-3 category-list">
+                        <%= link_to jobs_path(:category => "职能") do %>
+                          <div class="expert-box">
+                              <%= image_tag("category_07.png") %>
+                          </div>
+                          <div>
+                            <h3>职能</h3>
+                            <p>Office</p>
+                          </div>
+                        <% end %>
+                      </div>
+                      <div class="col-md-3 category-list">
+                        <%= link_to jobs_path , class: "category_all" do %>
+                          <div class="expert-box">
+                              <%= image_tag("category_08.png") %>
+                          </div>
+                          <div>
+                            <h3>所有职位</h3>
+                            <p>All Jobs</p>
+                          </div>
+                        <% end %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <!--======== end 热门职位 =========-->

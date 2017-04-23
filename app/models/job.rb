@@ -6,6 +6,9 @@ class Job < ApplicationRecord
 
   scope :published, -> { where(is_hidden: false) }
   scope :recent, -> { order('created_at DESC') }
+  scope :company, -> { order('company') }
+  scope :category, -> { order('category')}
+
 
   has_many :resumes
 
